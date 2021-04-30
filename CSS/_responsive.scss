@@ -1,0 +1,43 @@
+@media (max-width: 1260px) {
+    .menu {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+
+        .menu-mobile {
+            opacity: 0.6;
+            .item1,
+            .item2 {
+                width: 35px;
+                height: 2px;
+
+                background: $secundary-color;
+            }
+            .item1 {
+                margin-bottom: 10px;
+            }
+            &:hover {
+                transition: 2s ease-in;
+                opacity: 2;
+            }
+        }
+        .logo svg {
+            margin: 0;
+        }
+        .icons-menu .icon-shop svg {
+            margin: 0;
+        }
+        .items-txt-menu {
+            display: none;
+        }
+        .icons-menu .icon-search {
+            display: none;
+        }
+    }
+
+    .subheader {
+        div {
+            padding: 0px 70px 0px 60px;
+        }
+    }
+}
