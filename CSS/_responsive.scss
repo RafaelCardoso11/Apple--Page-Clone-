@@ -1,7 +1,24 @@
-@media (max-width: 1260px) {
+@media (max-width: 2450px) {
+    .banners-flex {
+        .banners {
+            max-width: 1800px;
+            flex: 1 1 800px;
+        }
+    }
+}
+@media (max-width: 1700px) {
+    .banners-flex {
+        .banners {
+            max-width: 1800px;
+            flex: 1 1 600px;
+        }
+    }
+}
+@media (max-width: 1535px) {
     .menu {
         justify-content: space-between;
         display: flex;
+
         align-items: center;
 
         .menu-mobile {
@@ -40,4 +57,95 @@
             padding: 0px 70px 0px 60px;
         }
     }
+    .banner-primary {
+        .img-desktop {
+            display: none;
+        }
+        .img-mobile {
+            display: block;
+        }
+    }
+
+    //Banners
+    .banner-primary {
+        .text-header-absolute {
+            position: absolute;
+            left: 50%;
+            top: 35%;
+            transform: translate(-50%, -50%);
+        }
+        .headline {
+            font-size: 90px;
+        }
+        .subhead {
+            font-size: 40px;
+        }
+        .more-options {
+            width: 80vw;
+            a {
+                font-size: 30px;
+            }
+        }
+    }
+    .banner-secundary {
+        .text-header-absolute {
+            position: absolute;
+            left: 50%;
+            top: 117%;
+            transform: translate(-50%, -50%);
+        }
+        .headline {
+            font-size: 90px;
+        }
+        .subhead {
+            font-size: 40px;
+        }
+        .more-breve {
+            font-size: 30px;
+        }
+        .more-options {
+            width: 80vw;
+            a {
+                font-size: 30px;
+            }
+        }
+        .img-imac-desktop {
+            display: none;
+        }
+        .img-imac-mobile {
+            display: block;
+        }
+    }
+
+    .banner-tertiary {
+        .text-header-absolute {
+            position: absolute;
+            left: 50%;
+            top: 200%;
+            transform: translate(-50%, -50%);
+        }
+        .headline {
+            font-size: 90px;
+        }
+        .subhead {
+            font-size: 40px;
+        }
+        .more-options {
+            width: 80vw;
+            a {
+                font-size: 30px;
+            }
+        }
+        img {
+            width: 100%;
+            height: 80vh;
+        }
+        .img-iphone-desktop {
+            display: none;
+        }
+        .img-iphone-mobile {
+            display: block;
+        }
+    }
 }
+   
