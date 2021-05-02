@@ -1,5 +1,7 @@
 $primary-color: rgba(0,0,0,0.8);
 $secundary-color: white;
+$tertiary-color:#06c;
+$base-color: #ededf1;
 *{
     padding: 0;
     margin: 0;
@@ -8,4 +10,11 @@ $secundary-color: white;
 }
 body{
     width: 100%;
+    background: $base-color;
+    
+}
+html{
+    width: 100%;
+    font-size: 62.5%;
+  
 }

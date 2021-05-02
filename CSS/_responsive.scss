@@ -6,7 +6,7 @@
         }
     }
 }
-@media (max-width: 1700px) {
+@media (max-width: 1030px) {
     .banners-flex {
         .banners {
             max-width: 1800px;
@@ -14,7 +14,7 @@
         }
     }
 }
-@media (max-width: 1535px) {
+@media (max-width: 760px) {
     .menu {
         justify-content: space-between;
         display: flex;
@@ -71,19 +71,19 @@
         .text-header-absolute {
             position: absolute;
             left: 50%;
-            top: 35%;
+            top: 40%;
             transform: translate(-50%, -50%);
         }
         .headline {
-            font-size: 90px;
+            font-size: 9.0rem;
         }
         .subhead {
-            font-size: 40px;
+            font-size: 4.0rem;
         }
         .more-options {
             width: 80vw;
             a {
-                font-size: 30px;
+                font-size: 3.0rem;
             }
         }
     }
@@ -91,22 +91,22 @@
         .text-header-absolute {
             position: absolute;
             left: 50%;
-            top: 117%;
+            top: 125%;
             transform: translate(-50%, -50%);
         }
         .headline {
-            font-size: 90px;
+            font-size: 9.0rem;
         }
         .subhead {
-            font-size: 40px;
+            font-size: 4.0rem;
         }
         .more-breve {
-            font-size: 30px;
+            font-size: 3.0rem;
         }
         .more-options {
             width: 80vw;
             a {
-                font-size: 30px;
+                font-size: 3.0rem;
             }
         }
         .img-imac-desktop {
@@ -121,19 +121,19 @@
         .text-header-absolute {
             position: absolute;
             left: 50%;
-            top: 200%;
+            top: 215%;
             transform: translate(-50%, -50%);
         }
         .headline {
-            font-size: 90px;
+            font-size: 9.0rem;
         }
         .subhead {
-            font-size: 40px;
+            font-size: 4.0rem;
         }
         .more-options {
             width: 80vw;
             a {
-                font-size: 30px;
+                font-size: 3.0rem;
             }
         }
         img {

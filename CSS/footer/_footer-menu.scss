@@ -1,0 +1,33 @@
+footer{
+    padding: 0px 20px 0px 20px;
+    .container-flex-items{
+        display: flex;
+       
+        .items-container{
+            display: flex;
+            width: 25%;
+            padding: 20px 0px 40px 0px;
+          
+            ul{
+                width: 90%;
+                h3{
+                    margin-top: 40px;
+                }
+                list-style: none;
+                li{
+                    margin-top: 13px;
+                }
+                a{
+                    color: black;
+                    opacity: 0.5;
+                    font-size: 1.7rem;
+                    margin-bottom: 15px;
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

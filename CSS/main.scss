@@ -1,9 +1,11 @@
 @import 'base';
 @import 'header';
 @import 'subheader';
-@import 'banner-initial';
-@import 'banner-secundary';
-@import 'banner-tertiary';
-@import 'banners-flex';
-@import 'footer';
+@import 'Banner-page/banner-base';
+@import 'banner-page/banner-initial';
+@import 'banner-page/banner-secundary';
+@import 'banner-page/banner-tertiary';
+@import 'banner-page/banners-flex';
+@import 'footer/footer-base';
+@import 'footer/footer-menu';
 @import 'responsive';
