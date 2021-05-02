@@ -14,5 +14,4 @@ Clone to https://www.apple.com/br/
 <img src="https://github.com/RafaelCardoso11/Apple--Page-Clone-/blob/master/banner-tertiary-desktop_1.png" alt="Banner-initial-desktop">
 
 ### Initial Banner 3 Mobile - 30/04
-
 <img src="https://github.com/RafaelCardoso11/Apple--Page-Clone-/blob/master/banner-tertiary-mobile.png" alt="Banner-initial-Mobile">

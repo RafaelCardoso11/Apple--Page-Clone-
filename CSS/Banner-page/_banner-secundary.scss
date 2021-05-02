@@ -1,0 +1,52 @@
+.banner-secundary {
+  padding-top: 30px;
+  background: #FAFAFA;
+  .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 123%;
+    transform: translate(-50%, -50%);
+  }
+  h2,
+  h3 {
+    text-align: center;
+  }
+  .headline {
+    font-size: 10.0rem;
+  }
+  .subhead {
+    margin-top: 10px;
+    font-size: 5.0rem;
+    opacity: 0.9;
+    font-weight: lighter;
+  }
+  .more-breve {
+    margin: 10px 0px 10px 0px;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    opacity: 0.5;
+  }
+  .more-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    a {
+      text-decoration: none;
+      color: $tertiary-color;
+      font-size: 4.0rem;
+      margin: 0px 50px 0px 45px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    background-size: 100% 100%;
+    height: 80vh;
+  }
+  .img-imac-mobile {
+    display: none;
+  }
+}
