@@ -39,6 +39,10 @@ html {
   padding: 20px;
 }
 
+.menu .menu-mobile {
+  display: none;
+}
+
 .menu .logo svg {
   width: 45px;
   height: 45px;
@@ -94,6 +98,10 @@ html {
   transition: 0.2s ease-in;
   -webkit-filter: brightness(110%);
           filter: brightness(110%);
+}
+
+.menu-mobile-click {
+  display: none;
 }
 
 .subheader {
@@ -221,7 +229,7 @@ html {
 .banner-secundary .more-options a {
   text-decoration: none;
   color: #06c;
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   margin: 0px 50px 0px 45px;
 }
 
@@ -281,7 +289,7 @@ html {
 .banner-tertiary .more-options a {
   text-decoration: none;
   color: #06c;
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   margin: 0px 50px 0px 45px;
 }
 
@@ -348,6 +356,7 @@ footer .HeadEnd {
 }
 
 footer hr {
+  margin-bottom: 70px;
   opacity: 0.4;
 }
 
@@ -425,6 +434,10 @@ footer .buttons-end div a:hover {
   text-decoration: underline;
 }
 
+footer .buttons-end div .a-end {
+  border: 0px;
+}
+
 footer {
   padding: 0px 20px 0px 20px;
 }
@@ -448,6 +461,10 @@ footer .container-flex-items .items-container ul {
   list-style: none;
 }
 
+footer .container-flex-items .items-container ul hr {
+  display: none;
+}
+
 footer .container-flex-items .items-container ul h3 {
   margin-top: 40px;
 }
@@ -468,25 +485,149 @@ footer .container-flex-items .items-container ul a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 2450px) {
+@media (min-width: 1559px) {
+  .banner-primary .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner-primary .headline {
+    font-size: 9rem;
+  }
+  .banner-primary .subhead {
+    font-size: 4rem;
+  }
+  .banner-primary .more-options {
+    width: 80vw;
+  }
+  .banner-primary .more-options a {
+    font-size: 3rem;
+  }
+  .banner-secundary .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 118%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
   .banners-flex .banners {
-    max-width: 1800px;
+    max-width: 2000px;
     -webkit-box-flex: 1;
         -ms-flex: 1 1 800px;
             flex: 1 1 800px;
   }
 }
 
-@media (max-width: 1030px) {
-  .banners-flex .banners {
-    max-width: 1800px;
+@media (max-width: 1600px) {
+  .banner-primary .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner-primary .headline {
+    font-size: 9rem;
+  }
+  .banner-primary .subhead {
+    font-size: 4rem;
+  }
+  .banner-primary .more-options {
+    width: 80vw;
+  }
+  .banner-primary .more-options a {
+    font-size: 3rem;
+  }
+  .banner-secundary .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 123%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner-secundary .banners-flex .banners {
+    max-width: 1200px;
     -webkit-box-flex: 1;
         -ms-flex: 1 1 600px;
             flex: 1 1 600px;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  .banners-flex .banners {
+    max-width: 1600px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 400px;
+            flex: 1 1 400px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .banners-flex .banners {
+    max-width: 1070px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 500px;
+            flex: 1 1 500px;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 42%;
+  }
+  .banners-flex .banners {
+    max-width: 1000px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 400px;
+            flex: 1 1 400px;
+  }
+  .banner-primary .headline {
+    font-size: 12rem;
+  }
+  .banner-primary .subhead {
+    font-size: 8rem;
+  }
+  .banner-primary .more-options {
+    width: 100vw;
+  }
+  .banner-primary .more-options a {
+    font-size: 5rem;
+  }
+  .banner-secundary .headline {
+    font-size: 12rem;
+  }
+  .banner-secundary .subhead {
+    font-size: 8rem;
+  }
+  .banner-secundary .more-options {
+    width: 100vw;
+  }
+  .banner-secundary .more-options a {
+    font-size: 5rem;
+  }
+  .banner-tertiary .headline {
+    font-size: 12rem;
+  }
+  .banner-tertiary .subhead {
+    font-size: 8rem;
+  }
+  .banner-tertiary .more-options {
+    width: 100vw;
+  }
+  .banner-tertiary .more-options a {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 62.4%;
+  }
   .menu {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -497,8 +638,13 @@ footer .container-flex-items .items-container ul a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    /*&:hover{
+            top: -62px;
+            transition: 3s ease-in;
+        }*/
   }
   .menu .menu-mobile {
+    display: block;
     opacity: 0.6;
   }
   .menu .menu-mobile .item1,
@@ -527,6 +673,98 @@ footer .container-flex-items .items-container ul a:hover {
   .menu .icons-menu .icon-search {
     display: none;
   }
+  .menu.search {
+    -webkit-transition: 0.8s ease;
+    transition: 0.8s ease;
+    top: -100%;
+  }
+  .menu.on .menu-mobile .item1 {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-transform: rotate(45deg) translate(-1px, 0px);
+            transform: rotate(45deg) translate(-1px, 0px);
+  }
+  .menu.on .menu-mobile .item2 {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-transform: rotate(-45deg) translate(8px, -10px);
+            transform: rotate(-45deg) translate(8px, -10px);
+  }
+  .menu-mobile-click {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    -webkit-transition: 0.8s ease;
+    transition: 0.8s ease;
+    top: -92%;
+  }
+  .menu-mobile-click hr {
+    opacity: 0.3;
+  }
+  .menu-mobile-click .line-search {
+    margin-bottom: 15px;
+  }
+  .menu-mobile-click .line-items {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .menu-mobile-click .container {
+    width: 100%;
+    margin-top: 100px;
+    background: black;
+  }
+  .menu-mobile-click .search-container {
+    width: 90%;
+    margin: 0 auto;
+    top: -100%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #1d1d1f;
+  }
+  .menu-mobile-click .search-container .logo {
+    width: 45px;
+  }
+  .menu-mobile-click .search-container .search {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    background: #1d1d1f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    border: none;
+    outline: none;
+    height: 70px;
+  }
+  .menu-mobile-click li {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+  }
+  .menu-mobile-click li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+  .menu-mobile-click li a:hover {
+    -webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    opacity: 0.7;
+  }
+  .menu-mobile-click.on {
+    -webkit-transition: 0.8s ease;
+    transition: 0.8s ease;
+    top: 0;
+  }
   .subheader div {
     padding: 0px 70px 0px 60px;
   }
@@ -539,21 +777,21 @@ footer .container-flex-items .items-container ul a:hover {
   .banner-primary .text-header-absolute {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
   .banner-primary .headline {
-    font-size: 9.0rem;
+    font-size: 9rem;
   }
   .banner-primary .subhead {
-    font-size: 4.0rem;
+    font-size: 4rem;
   }
   .banner-primary .more-options {
     width: 80vw;
   }
   .banner-primary .more-options a {
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
   .banner-secundary .text-header-absolute {
     position: absolute;
@@ -563,19 +801,19 @@ footer .container-flex-items .items-container ul a:hover {
             transform: translate(-50%, -50%);
   }
   .banner-secundary .headline {
-    font-size: 9.0rem;
+    font-size: 9rem;
   }
   .banner-secundary .subhead {
-    font-size: 4.0rem;
+    font-size: 4rem;
   }
   .banner-secundary .more-breve {
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
   .banner-secundary .more-options {
-    width: 80vw;
+    width: 100vw;
   }
   .banner-secundary .more-options a {
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
   .banner-secundary .img-imac-desktop {
     display: none;
@@ -586,21 +824,171 @@ footer .container-flex-items .items-container ul a:hover {
   .banner-tertiary .text-header-absolute {
     position: absolute;
     left: 50%;
-    top: 215%;
+    top: 210%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
   .banner-tertiary .headline {
-    font-size: 9.0rem;
+    font-size: 9rem;
   }
   .banner-tertiary .subhead {
-    font-size: 4.0rem;
+    font-size: 4rem;
   }
   .banner-tertiary .more-options {
     width: 80vw;
   }
   .banner-tertiary .more-options a {
-    font-size: 3.0rem;
+    font-size: 3rem;
+  }
+  .banner-tertiary img {
+    width: 100%;
+    height: 80vh;
+  }
+  .banner-tertiary .img-iphone-desktop {
+    display: none;
+  }
+  .banner-tertiary .img-iphone-mobile {
+    display: block;
+  }
+  footer .container-flex-items {
+    display: block;
+  }
+  footer .container-flex-items .items-container {
+    padding: 0;
+    width: 100%;
+  }
+  footer .container-flex-items .items-container ul {
+    margin: 0 auto;
+    width: 100%;
+  }
+  footer .container-flex-items .items-container ul hr {
+    display: block;
+    margin: 5px 0px 0px 0px;
+  }
+  footer .container-flex-items .items-container ul h3 {
+    opacity: 0.5;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin-top: 15px;
+  }
+  footer .container-flex-items .items-container ul h3:hover {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  footer .container-flex-items .items-container ul h3 div .x,
+  footer .container-flex-items .items-container ul h3 div .y {
+    -webkit-transition: 3s;
+    transition: 3s;
+    position: absolute;
+    margin-bottom: 4px;
+    background: black;
+    opacity: 0.6;
+    width: 3px;
+    height: 13px;
+    right: 5%;
+  }
+  footer .container-flex-items .items-container ul h3 div .y {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  footer .container-flex-items .items-container .x.on {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  footer .container-flex-items .items-container .y.on {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  footer .container-flex-items .items-container a {
+    display: none;
+  }
+  footer .container-flex-items .items-container.on a {
+    display: block;
+  }
+  footer .copyright {
+    display: block;
+  }
+  footer .copyright div {
+    margin-top: 20px;
+  }
+  footer .buttons-end {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner-primary .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner-primary .headline {
+    font-size: 9rem;
+  }
+  .banner-primary .subhead {
+    font-size: 4rem;
+  }
+  .banner-primary .more-options {
+    width: 80vw;
+  }
+  .banner-primary .more-options a {
+    font-size: 3rem;
+  }
+  .banner-secundary .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner-secundary .headline {
+    font-size: 9rem;
+  }
+  .banner-secundary .subhead {
+    font-size: 4rem;
+  }
+  .banner-secundary .more-breve {
+    font-size: 3rem;
+  }
+  .banner-secundary .more-options {
+    width: 100vw;
+  }
+  .banner-secundary .more-options a {
+    font-size: 3rem;
+  }
+  .banner-secundary .img-imac-desktop {
+    display: none;
+  }
+  .banner-secundary .img-imac-mobile {
+    display: block;
+  }
+  .banner-tertiary .text-header-absolute {
+    position: absolute;
+    left: 50%;
+    top: 222%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .banner-tertiary .headline {
+    font-size: 9rem;
+  }
+  .banner-tertiary .subhead {
+    font-size: 4rem;
+  }
+  .banner-tertiary .more-options {
+    width: 80vw;
+  }
+  .banner-tertiary .more-options a {
+    font-size: 3rem;
   }
   .banner-tertiary img {
     width: 100%;

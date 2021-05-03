@@ -14,6 +14,7 @@ footer{
         opacity: 0.5;
     }
     hr{
+        margin-bottom: 70px;
         opacity: 0.4;
     }
     .sub-end{
@@ -72,6 +73,9 @@ footer{
             &:hover{
                 text-decoration: underline;
             }
+        }
+        .a-end{
+            border: 0px;
         }
        }
     }

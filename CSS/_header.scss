@@ -3,6 +3,9 @@
     height: 90px;
 }
 .menu {
+    .menu-mobile{
+        display: none;
+    }
     background: $primary-color;
 
     display: flex;
@@ -54,4 +57,6 @@
         }
     }
 }
-
+.menu-mobile-click{
+    display: none;
+}
