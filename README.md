@@ -12,4 +12,9 @@ Clone to https://www.apple.com/br/
 ### Initial Banner 3 Desktop
 <img src="https://github.com/RafaelCardoso11/Apple--Page-Clone-/blob/master/banner-tertiary-desktop_1.png" alt="Banner-initial-desktop">
 
-<img src="https://github.com/RafaelCardoso11/Apple--Page-Clone-/blob/master/banner-tertiary_1.png" alt="Banner-initial-desktop">
+### Footer - Desktop
+<img src="https://github.com/RafaelCardoso11/Apple--Page-Clone-/blob/master/footer-apple.png" alt="Footer-page-apple">
+### Footer - Mobile
+<img src="https://github.com/RafaelCardoso11/Apple--Page-Clone-/blob/master/footer-mobile.png" alt="Footer-mobile">
+### Footer - Menu Mobile
+<img src="https://github.com/RafaelCardoso11/Apple--Page-Clone-/blob/master/Footer-toggle.png" alt="Footer-mobile">
