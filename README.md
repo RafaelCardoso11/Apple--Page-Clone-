@@ -1,6 +1,7 @@
 # Apple--Page-Clone-
 Clone to https://www.apple.com/br/
 
+Some basic rotation animations are missing and the response to some screens.
 
 ### Initial Banner Desktop
 
